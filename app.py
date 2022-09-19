@@ -5,7 +5,7 @@ from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 import re
 model_tfidf = joblib.load('sexual-harasment-tf-idf')
-model = joblib.load('sexual-harasment-logistic-regression-model')
+model = joblib.load('sexual-harasment-model')
 
 
 def fn_preprocess_text(sentence):
